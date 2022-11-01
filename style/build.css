@@ -1,0 +1,95 @@
+body{
+    margin: 0%;
+
+}
+.parent{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.big{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(63, 240, 125);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+.small{
+    width: 100vw;
+    height: 30vh;
+    background-color: skyblue;
+}
+.b1{
+    background-color: white;
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+ .b2{
+    background-color: white;
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+.b3{
+    background-color: white;
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.b4{
+    background-color: white;
+    width: 20vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c1{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.bar{
+    width: 16vw;
+    height: 7vh;
+    display: flex;
+    background-color:rgb(99, 239, 99);
+    border-radius: 8px;
+    margin-left: 25px;
+}
+.c2{
+    width: 20vw;
+    height: 7vh;
+    display: flex;
+    
+    justify-content: space-around;
+}
+.w1{
+    width: 3vw;
+    height: 6vh;
+    background-color: rgb(90, 238, 90);
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    border-radius: 6px;
+
+}
+     
+

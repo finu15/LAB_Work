@@ -1,0 +1,41 @@
+body {
+    background-color: cyan;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+#cen {
+    background-color: rgb(7, 228, 7);
+
+    margin: 200px 200px 200px 200px;
+
+    padding: 0%
+}
+
+.hi {
+    margin-top: -150px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+.child {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+.item {
+    width: 10%;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(6, 110, 110);
+
+}

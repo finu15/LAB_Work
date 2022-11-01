@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+
+.main{
+    width: 30vw;
+    height: 70vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 60px;
+}
+
+.display{
+    width: 25vw;
+    height: 10vh;
+    background-color: rgb(13, 0, 255);
+    display: flex;
+    /* margin-top: -70%; */
+
+}
+
+/* .parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 10%;
+}
+
+.item{
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    flex-direction: row;
+    justify-content: space-evenly;
+} */
