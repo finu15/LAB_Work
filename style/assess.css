@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+.parent{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+.class1{
+    position: relative;
+    width: 50vw;
+    height: 800vh;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.class2{
+    position: absolute;
+    width: 20vw;
+    height: 40vh;
+    background-color: red;
+    z-index: 0;
+    top: 70px;
+    left: 80px;
+}
+
+.class3{
+    position: absolute;
+    width: 20vw;
+    height: 40vh;
+    background-color: blue;
+    z-index: 1;
+    top: 190px;
+    left: 200px;
+
+}

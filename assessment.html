@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z_Index</title>
+    <link rel="stylesheet" href="style/assess.css">
+</head>
+<body>
+    <div class="parent">
+        <div class="class1">
+            <div class="class2" id="class2" onclick="index1()"></div>
+            <div class="class3" id="class3" onclick="index2()"></div>
+        </div>
+    </div>
+</body>
+
+<script>
+    function index1(){
+        document.getElementById("class2").style.zIndex=1;
+        document.getElementById("class3").style.zIndex=0;
+    }
+    function index2(){
+        document.getElementById("class2").style.zIndex=0;
+        document.getElementById("class3").style.zIndex=1;
+    }
+</script>
+</html>
